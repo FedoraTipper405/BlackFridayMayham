@@ -8,6 +8,7 @@ public class CustomerSpawnManager : MonoBehaviour
     [SerializeField] private List<Transform> _randomSpawnlocation;
     [SerializeField] private GameObject _customerPrefab;
     [SerializeField] private float _maxNumberOfCustomers;
+    [SerializeField] private float _timeUntilNextCustomer;
     private int _numberOfCustomers;
 
     private void Start()
@@ -17,7 +18,7 @@ public class CustomerSpawnManager : MonoBehaviour
 
     IEnumerator WaitTimer()
     {
-        yield return new WaitForSeconds(4);
+        yield return new WaitForSeconds(_timeUntilNextCustomer);
         SpawnEnemy();
     }
 

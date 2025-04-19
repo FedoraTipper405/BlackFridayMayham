@@ -194,6 +194,7 @@ MonoBehaviour:
   - {fileID: 1319491509}
   _customerPrefab: {fileID: 2893501529526472686, guid: 72334ffec0dae8646ae3c9a8225e5395, type: 3}
   _maxNumberOfCustomers: 7
+  _timeUntilNextCustomer: 3
 --- !u!4 &28697300
 Transform:
   m_ObjectHideFlags: 0
@@ -369,7 +370,7 @@ Transform:
   m_GameObject: {fileID: 66266072}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.95, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -418,8 +419,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
-  m_Sprite: {fileID: -7313347125236997880, guid: 4918bfbd1ed4d214b82c6541a8a86f64, type: 3}
+  m_SortingOrder: 2
+  m_Sprite: {fileID: -8265277449272495042, guid: 8db0608cac2f50542a2680badfb22a05, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -955,7 +956,7 @@ Transform:
   m_GameObject: {fileID: 259732254}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.01, y: 2.3000002, z: 0}
+  m_LocalPosition: {x: 0.25, y: 2.3000002, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -974,7 +975,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65199d2a85e5bb64b8a78138cc7e6085, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newSprite: {fileID: 1248691580800985997, guid: b39f1aa6ce40dab46966525684f35bed, type: 3}
+  newSprite: {fileID: -7413118103309239222, guid: 4362e280c9727e7419b2bdb0e05974ef, type: 3}
   _reducePayCheckAmount: 200
 --- !u!58 &259732257
 CircleCollider2D:
@@ -1861,7 +1862,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65199d2a85e5bb64b8a78138cc7e6085, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newSprite: {fileID: 1248691580800985997, guid: b39f1aa6ce40dab46966525684f35bed, type: 3}
+  newSprite: {fileID: -7413118103309239222, guid: 4362e280c9727e7419b2bdb0e05974ef, type: 3}
   _reducePayCheckAmount: 200
 --- !u!58 &545608892
 CircleCollider2D:
@@ -2059,7 +2060,7 @@ Transform:
   m_GameObject: {fileID: 565934282}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2108,8 +2109,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
-  m_Sprite: {fileID: -7313347125236997880, guid: 4918bfbd1ed4d214b82c6541a8a86f64, type: 3}
+  m_SortingOrder: 2
+  m_Sprite: {fileID: -8265277449272495042, guid: 8db0608cac2f50542a2680badfb22a05, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2146,7 +2147,7 @@ Transform:
   m_GameObject: {fileID: 587082387}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.93, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2195,8 +2196,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
-  m_Sprite: {fileID: -7313347125236997880, guid: 4918bfbd1ed4d214b82c6541a8a86f64, type: 3}
+  m_SortingOrder: 2
+  m_Sprite: {fileID: -8265277449272495042, guid: 8db0608cac2f50542a2680badfb22a05, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2743,7 +2744,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65199d2a85e5bb64b8a78138cc7e6085, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newSprite: {fileID: 1248691580800985997, guid: b39f1aa6ce40dab46966525684f35bed, type: 3}
+  newSprite: {fileID: -7413118103309239222, guid: 4362e280c9727e7419b2bdb0e05974ef, type: 3}
   _reducePayCheckAmount: 200
 --- !u!58 &711265199
 CircleCollider2D:
@@ -3696,7 +3697,7 @@ Transform:
   m_GameObject: {fileID: 1292032619}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.98, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3745,8 +3746,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
-  m_Sprite: {fileID: -7313347125236997880, guid: 4918bfbd1ed4d214b82c6541a8a86f64, type: 3}
+  m_SortingOrder: 2
+  m_Sprite: {fileID: -8265277449272495042, guid: 8db0608cac2f50542a2680badfb22a05, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4317,7 +4318,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65199d2a85e5bb64b8a78138cc7e6085, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newSprite: {fileID: 1248691580800985997, guid: b39f1aa6ce40dab46966525684f35bed, type: 3}
+  newSprite: {fileID: -7413118103309239222, guid: 4362e280c9727e7419b2bdb0e05974ef, type: 3}
   _reducePayCheckAmount: 200
 --- !u!58 &1511009875
 CircleCollider2D:
@@ -4381,7 +4382,7 @@ Transform:
   m_GameObject: {fileID: 1588541861}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.94, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4430,8 +4431,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
-  m_Sprite: {fileID: -7313347125236997880, guid: 4918bfbd1ed4d214b82c6541a8a86f64, type: 3}
+  m_SortingOrder: 2
+  m_Sprite: {fileID: -8265277449272495042, guid: 8db0608cac2f50542a2680badfb22a05, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4602,7 +4603,7 @@ Transform:
   m_GameObject: {fileID: 1593856056}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4651,8 +4652,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
-  m_Sprite: {fileID: -7313347125236997880, guid: 4918bfbd1ed4d214b82c6541a8a86f64, type: 3}
+  m_SortingOrder: 2
+  m_Sprite: {fileID: -8265277449272495042, guid: 8db0608cac2f50542a2680badfb22a05, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5045,7 +5046,7 @@ Transform:
   m_GameObject: {fileID: 1698898331}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.0100002, y: -0.30000007, z: 0}
+  m_LocalPosition: {x: -2.36, y: -0.30000007, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5064,7 +5065,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65199d2a85e5bb64b8a78138cc7e6085, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newSprite: {fileID: 1248691580800985997, guid: b39f1aa6ce40dab46966525684f35bed, type: 3}
+  newSprite: {fileID: -7413118103309239222, guid: 4362e280c9727e7419b2bdb0e05974ef, type: 3}
   _reducePayCheckAmount: 200
 --- !u!58 &1698898334
 CircleCollider2D:
@@ -5342,7 +5343,7 @@ Transform:
   m_GameObject: {fileID: 1819109504}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.99, y: 2.3000002, z: 0}
+  m_LocalPosition: {x: 7.42, y: 2.3000002, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5361,7 +5362,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65199d2a85e5bb64b8a78138cc7e6085, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newSprite: {fileID: 1248691580800985997, guid: b39f1aa6ce40dab46966525684f35bed, type: 3}
+  newSprite: {fileID: -7413118103309239222, guid: 4362e280c9727e7419b2bdb0e05974ef, type: 3}
   _reducePayCheckAmount: 200
 --- !u!58 &1819109507
 CircleCollider2D:
@@ -5722,7 +5723,7 @@ Transform:
   m_GameObject: {fileID: 1948250410}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.99, y: -0.30000007, z: 0}
+  m_LocalPosition: {x: 4.57, y: -0.30000007, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5741,7 +5742,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65199d2a85e5bb64b8a78138cc7e6085, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newSprite: {fileID: 1248691580800985997, guid: b39f1aa6ce40dab46966525684f35bed, type: 3}
+  newSprite: {fileID: -7413118103309239222, guid: 4362e280c9727e7419b2bdb0e05974ef, type: 3}
   _reducePayCheckAmount: 200
 --- !u!58 &1948250413
 CircleCollider2D:
@@ -6298,7 +6299,7 @@ Transform:
   m_GameObject: {fileID: 2046060100}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.95, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6347,8 +6348,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
-  m_Sprite: {fileID: -7313347125236997880, guid: 4918bfbd1ed4d214b82c6541a8a86f64, type: 3}
+  m_SortingOrder: 2
+  m_Sprite: {fileID: -8265277449272495042, guid: 8db0608cac2f50542a2680badfb22a05, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

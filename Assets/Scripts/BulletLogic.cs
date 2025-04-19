@@ -20,7 +20,7 @@ public class Bullet : MonoBehaviour
         rb.AddForce(transform.up * _speedOfBullet, ForceMode2D.Impulse);
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         _timer += Time.deltaTime;
         if (_timer >= _lifeTimeOfBullet)

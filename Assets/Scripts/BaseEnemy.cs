@@ -74,7 +74,7 @@ public class BaseEnemy : MonoBehaviour, ITriggerCheckable
     private void DropPowerUp()
     {
         float randomChance = Random.value;
-        if(randomChance <= 0.50f)
+        if(randomChance <= 0.30f)
         {
             Instantiate(PowerUpDrop, transform.position, Quaternion.identity);
         }

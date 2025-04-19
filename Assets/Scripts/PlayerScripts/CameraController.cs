@@ -6,7 +6,7 @@ public class CameraController : MonoBehaviour
     [SerializeField] private float _displacementMultiplier = 0.15f;
     private float _zPosition = -10;
 
-    private void Update()
+    private void FixedUpdate()
     {
         Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Vector3 cameraDisplacement = (mousePosition - _playerTransform.position) * _displacementMultiplier;
